@@ -30,3 +30,21 @@ This is a very basic example, but the principle of MLE is used in much more comp
 
 [Maximum likelihood estimation of logistic regression models: theory and implementation](https://saedsayad.com/docs/mlelr.pdf)
 
+# Code examples
+
+In this Python source code, we explore the concept of Maximum Likelihood Estimation (MLE) through five progressively challenging examples. MLE is a statistical method used to estimate the parameters of a probability distribution from observed data.
+
+Example 1 - MLE for Normal Distribution:
+We estimate the mean and standard deviation of a normal distribution based on a set of data points. The mean is calculated as the average of the data, and the standard deviation measures the spread of the data.
+
+Example 2 - MLE for Exponential Distribution:
+Here, we estimate the rate parameter (lambda) of an exponential distribution. The rate represents the number of occurrences per unit time and is calculated as the reciprocal of the mean of the data.
+
+Example 3 - MLE for Poisson Distribution:
+In this case, we estimate the rate parameter (lambda) of a Poisson distribution from count data. The rate parameter is simply the average count of events observed.
+
+Example 4 - MLE for Gamma Distribution:
+We estimate the shape and scale parameters of a gamma distribution. The shape parameter determines the shape of the distribution, while the scale parameter controls the spread. These are calculated based on the mean and variance of the data.
+
+Example 5 - MLE for Mixture of Normals:
+In this example, we estimate the parameters of a mixture of two normal distributions. Each component has its mean and standard deviation. We assume equal weights for the two components and calculate their parameters using the mean and standard deviation of the input data.
